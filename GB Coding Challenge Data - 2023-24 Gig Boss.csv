@@ -1,0 +1,22 @@
+Band,Annual Income,,Total All Bands Income,12700
+Band 1,10000,,Total Personal Income,3100
+Band 2,500,,Total You Paid Out To Members Who Made >= 600,8800
+Band 3,2200,,Total You Paid Out To Members Who Made < 600,800
+,,,Total You Paid Out,9600
+Band 1 Members,Member Annual Income,,,
+You,2500,,,
+Adam,2500,,,
+Reid,2500,,,
+Joey,2500,,,
+,,,,
+Band 2 Members,Member Annual Income,,,
+You,200,,,
+John,100,,,
+Paul,100,,,
+Michael,100,,,
+,,,,
+Band 3 Members,Member Annual Income,,,
+You,400,,,
+Kendrick,500,,,
+Talib,600,,,
+George,700,,,
