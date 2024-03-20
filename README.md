@@ -2,7 +2,7 @@
 
 This coding challenge is aimed at our future implementations of our app's "Books" page.  Currently users can keep track of their income for the year, the overall income, and each individual band's income. Our future implementations will include a more thorough record of all of the above, with the addition of keeping track of individual musician income, Tracking 1099 (those who earn more than $600 from your bands), as well as an EXPORT option where all income information can be printed in a format that's easy to use for tax purposes. 
 
-We will provide you with 3 visual examples, as well as income data, that you will use for the challenge. Our MVP, or Minimum Viable Product, is the completion of Iteration 2, and we really hope you can complete through Iteration 2! Iteration 3 is extra but encouraged if you have the time.
+We've provided you with instructions and income data that you will use for the challenge, as well as design examples to assist you. Our MVP, or Minimum Viable Product, is the completion of Iteration 2, and we really hope you can complete through Iteration 2! Iteration 3 is extra but encouraged if you have the time.
 
 The following instructions will guide you through our Interview Challenge.
 
