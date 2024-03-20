@@ -1,3 +1,7 @@
+# Overview
+
+This coding challenge is aimed at our future implementations of our app's "Books" page.  Currently users can keep track of their income for the year, the overall income, and each individual band's income. Our future implementations will include a more thorough record of all of the above, with the addition of keeping track of Individual Musician Income, Tracking 1099 (those who Earn more than $600 from your bands), as well as an EXPORT option where all income information can be printed in a format that's easy to use for tax purposes. The following instructions will guide you through our Interview Challenge.
+
 # Coding Challenge Instructions
 
 You are the leader of 3 bands, and it's time to do taxes for the year (ugh, sucks right?!).\
