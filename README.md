@@ -2,7 +2,7 @@
 
 This coding challenge is aimed at our future implementations of our app's "Books" page.  Currently users can keep track of their income for the year, the overall income, and each individual band's income. Our future implementations will include a more thorough record of all of the above, with the addition of keeping track of individual musician income, Tracking 1099 (those who earn more than $600 from your bands), as well as an EXPORT option where all income information can be printed in a format that's easy to use for tax purposes. 
 
-We will provide you with 3 visual examples, as well as income data, that you will use for the challenge. Our MVP, or minimum viable product, is the completion of Iteration 2, Iteration 3 is extra but encouraged!
+We will provide you with 3 visual examples, as well as income data, that you will use for the challenge. Our MVP, or Minimum Viable Product, is the completion of Iteration 2, and we really hope you can complete through Iteration 2! Iteration 3 is extra but encouraged if you have the time.
 
 The following instructions will guide you through our Interview Challenge.
 
@@ -28,10 +28,10 @@ Create a page that displays:
 - Total amount of $ you paid to ppl who made < $600
 - Search for a person’s name and see how much you paid them (or dropdown menu)
 
-\
+
 # References:
 
-You'll find screen shots of "Iteration 0," "Iteration 1," "Iteration 2," "Iteration 3, "as well as "Income Data - 2023-24."
+You'll find screen shots of **Iteration 0**, **Iteration 1**, **Iteration 2**, **Iteration 3**, as well as **Income Data - 2023-24.**
 
 # Iteration 0
 
@@ -45,7 +45,7 @@ Details:
 
 # Iteration 1
 
-This illustrates the "Income By Band" pulldown menu, as well as the information necassary in the "Render Area." These include:
+This illustrates the "Income By Band" pulldown menu, as well as the information necessary in the "Render Area." These include:
  - Total Band Income
  - A breakdown of all members of the band's income. 
  - When you switch from band to band the information in this window will change to match the band's income.
@@ -67,17 +67,19 @@ This illustrates the first button, "Income By Musician"  With a click of this bu
 This step is the final step.  Here we will press "Export Data" and ALL of the important information should be exported to a useful tax page.  It should include:
 
 - Total All Bands Income
+- Total $ Each Member Made
+- Total $ You Paid Out To Members Who Made >= $600
+- Total $ You Paid Out To Members Who Made < $600
+- Total $ You Paid Out
 - Total Personal Income
-- Total You Paid Out To Members Who Made >= $600
-- Total You Paid Out To Members Who Made < $600
-- Total You Paid Out Combined
-- Total Each Member Made
 - Visual Cue as to those Who Made >= $600
 
 The Export can be:
 - Another Page (little spicy)
 - PDF file (spicy)
 - Excel sheet (extra spicy)
+
+We've made a Figma example of how you might show the data in another page after clicking the button. Don't think too hard about how you want to export the data; do what time allows and prioritize displaying all the necessary information cleanly.
 
 
 
