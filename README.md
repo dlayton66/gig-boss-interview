@@ -1,6 +1,10 @@
 # Overview
 
-This coding challenge is aimed at our future implementations of our app's "Books" page.  Currently users can keep track of their income for the year, the overall income, and each individual band's income. Our future implementations will include a more thorough record of all of the above, with the addition of keeping track of Individual Musician Income, Tracking 1099 (those who Earn more than $600 from your bands), as well as an EXPORT option where all income information can be printed in a format that's easy to use for tax purposes. The following instructions will guide you through our Interview Challenge.
+This coding challenge is aimed at our future implementations of our app's "Books" page.  Currently users can keep track of their income for the year, the overall income, and each individual band's income. Our future implementations will include a more thorough record of all of the above, with the addition of keeping track of individual musician income, Tracking 1099 (those who earn more than $600 from your bands), as well as an EXPORT option where all income information can be printed in a format that's easy to use for tax purposes. 
+
+We will provide you with 3 visual examples, as well as income data, that you will use for the challenge. Our MVP, or minimum viable product, is the completion of Iteration 2, Iteration 3 is extra but encouraged!
+
+The following instructions will guide you through our Interview Challenge.
 
 # Coding Challenge Instructions
 
@@ -25,29 +29,42 @@ Create a page that displays:
 - Search for a person’s name and see how much you paid them (or dropdown menu)
 
 \
-References:
+# References:
 
-You'll find screen shots of "Basic-Format," "Step-One," "Step-Two," as well as "GB Coding Challenge Data."
+You'll find screen shots of "Iteration 0," "Iteration 1," "Iteration 2," "Iteration 3, "as well as "Income Data - 2023-24."
 
-# Basic - Format
+# Iteration 0
 
-This is a BASIC Template of how to setup the UI.  This is not a strict Template, so feel free to use your own design ideas! We are going for Functionality over Beauty, but With a lot of UI changes on the Horizon for the app, A Catchy Design is a +!
+UI Setup - This is a BASIC template of how to setup the UI.  This is not a strict template, so feel free to use your own design ideas! We are looking for functionality over beauty, but with a lot of UI changes on the horizon for Gig Boss, A catchy design is a Plus!
 
-- Notice there is a "Total Income" for all bands at the top.
-- The "Individual Band Income" will be a drop down menu, where you can choose which band info you'll see.
-- Then there are Two Buttons, "Individual Income per Musician" is aimed at showing all individuals income, and "Export tax info to Excel" is the last iteration of the project. Push this button and all information will be exported to a sheet with all the numbers for taxes.
+/ 
+Details:
+- Notice there is a "Total Income for 2023-2024" for all bands at the top.
+- The "Income By Band" will be a drop down menu, where you can choose which band info you'll see.
+- Then there are Two Buttons, "Income By Musician" is aimed at showing all individuals income, and "Export to Spreadsheet" is the last iteration of the project. Push this button and all information will be exported to a sheet with all the numbers for taxes.
 
-# Step - One
+# Iteration 1
 
-This illustrates the "Individual Band Income" Pulldown menu, as well as the information necassary in the "Render Area." These include - Total Band Income, and a Breakdown of all members of the band's Income. When you switch from band to band the information in this window will change to match the band's income.
+This illustrates the "Income By Band" pulldown menu, as well as the information necassary in the "Render Area." These include:
+ - Total Band Income
+ - A breakdown of all members of the band's income. 
+ - When you switch from band to band the information in this window will change to match the band's income.
 
-# Step - Two
+# Iteration 2 (MVP - Minimum Viable Product)
 
-This Illustrates the First Button, "Individual Income Per Musician."  With a click of this button the "Render Area" should show: A Search input (Keyword Search), and a dropdown input with two options >= $600 and < $600. And Below a list of ALL (unfiltered) employees.  The Search input allows users to search for a direct name, and the pulldown separates members who've earn more than or equal to, or less then $600.  Ideally, when the members are unfiltered there will be some visual cue to those members who have made More than $600.  This is Shown with a green Highlight in the example.
+This illustrates the first button, "Income By Musician"  With a click of this button the "Render Area" should show: 
 
-# Step - Three
+- A search input (keyword search)
+- A dropdown input with two options >= $600 and < $600. 
+- And below a list of ALL (unfiltered) employees.  
+- The search input allows users to search for a direct name
+- The pulldown separates members who've earn more than or equal to, or less then $600. 
 
-This Step is the final Step, if you complete everything in the previous steps, then Go for this  implementation.  Here we will press the third button and ALL of the important information should be exported to a useful tax page.  It should include:
+ Ideally, when the members are unfiltered there will be some visual cue to those members who have made more than $600.  This is shown with a green highlight in the example.
+
+# Iteration 3
+
+This step is the final Step, if you complete everything in the previous steps, then go for this  implementation.  Here we will press the third button, "Export for Spreadsheet," and ALL of the important information should be exported to a useful tax page.  It should include:
 
 - Total All Bands Income
 - Total Personal Income
