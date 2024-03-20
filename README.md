@@ -4,12 +4,12 @@ This coding challenge is aimed at our future implementations of our app's "Books
 
 We've provided you with instructions and income data that you will use for the challenge, as well as design examples to assist you. Our MVP, or Minimum Viable Product, is the completion of Iteration 2, and we really hope you can complete through Iteration 2! Iteration 3 is extra but encouraged if you have the time.
 
-The following instructions will guide you through our Interview Challenge.
-
 # Coding Challenge Instructions
 
-You are the leader of 3 bands, and it's time to do taxes for the year (ugh, sucks right?!).\
-Thankfully, you're working on an app that would make tax season a whole lot easier for musicians!
+## Context
+
+You are the leader of 3 bands, and it's time to do taxes for the year — ugh, sucks right?! 🙃 \
+Thankfully, you're working on an app that would make tax season a whole lot easier for musicians like you!
 
 \
 Each band has 4 members total (3 including you).
@@ -18,7 +18,7 @@ Each band has 4 members total (3 including you).
 - For Band 3, you have paid 2 members >= $600 and the other 2 members less than $600 in the past year.
 
 \
-Create a page that displays:
+Create an interactive app that displays:
 - How much you have made personally over the past year
 - How much each individual band has made
 - How much total all the bands have made (all 3 bands added together)
@@ -28,12 +28,13 @@ Create a page that displays:
 - Total amount of $ you paid to ppl who made < $600
 - Search for a person’s name and see how much you paid them (or dropdown menu)
 
+## Resources:
 
-# References:
+*Income Data 2023-24.csv* has been uploaded in this repo, please reference it for all the data we want you to include in this challenge. You can simply hardcode the values in your code, but feel free to create your own backend/api if you wish to go the extra mile.
+\
+[Here is the link](https://www.figma.com/file/9qH3jQrBrNppwJjSgnoGUP/GB-Coding-Challenge?type=design&node-id=0%3A1&mode=design&t=wlM8zlV3ihzc8ZNB-1) to the Figma designs we've created as examples of what you could create. Individual examples are also shown in this README for each iteration.
 
-You'll find screen shots of **Iteration 0**, **Iteration 1**, **Iteration 2**, **Iteration 3**, as well as **Income Data - 2023-24.**
-
-# Iteration 0
+## Iteration 0
 
 UI Setup - This is a BASIC template of how to setup the UI.  This is not a strict template, so feel free to use your own design ideas! We are looking for functionality over beauty, but with a lot of UI changes on the horizon for Gig Boss, A catchy design is a Plus!
 
@@ -43,14 +44,18 @@ Details:
 - The "Income By Band" will be a drop down menu, where you can choose which band info you'll see.
 - Then there are Two Buttons, "Income By Musician" is aimed at showing all individuals income, and "Export Data" is the last iteration of the project. Push this button and all information will be exported to a sheet with all the numbers for taxes.
 
-# Iteration 1
+<img src='https://github.com/joeyhuaa/gig-boss-interview/blob/main/Iteration%200_Example.png' width='400' />
+
+## Iteration 1
 
 This illustrates the "Income By Band" pulldown menu, as well as the information necessary in the "Render Area." These include:
  - Total Band Income
  - A breakdown of all members of the band's income. 
  - When you switch from band to band the information in this window will change to match the band's income.
 
-# Iteration 2 (MVP - Minimum Viable Product)
+<img src='https://github.com/joeyhuaa/gig-boss-interview/blob/main/Iteration%201_Example.png' width='400' />
+
+## Iteration 2 (MVP - Minimum Viable Product)
 
 This illustrates the first button, "Income By Musician"  With a click of this button the "Render Area" should show: 
 
@@ -62,7 +67,9 @@ This illustrates the first button, "Income By Musician"  With a click of this bu
 
  Ideally, when the members are unfiltered there will be some visual cue to those members who have made more than $600.  This is shown with a green highlight in the example.
 
-# Iteration 3
+<img src='https://github.com/joeyhuaa/gig-boss-interview/blob/main/Iteration%202_Example.png' width='400' />
+
+## Iteration 3
 
 This step is the final step.  Here we will press "Export Data" and ALL of the important information should be exported to a useful tax page.  It should include:
 
@@ -81,5 +88,11 @@ The Export can be:
 
 We've made a Figma example of how you might show the data in another page after clicking the button. Don't think too hard about how you want to export the data; do what time allows and prioritize displaying all the necessary information cleanly.
 
+<img src='https://github.com/joeyhuaa/gig-boss-interview/blob/main/Iteration%203_Example.png' width='400' />
+
+## How to Complete and Submit
+Please fork this repo and email us a link to the repo after you've completed the challenge, or you can create a new repo from scratch if you'd like. Just make sure you use the data from the .csv file we've attached 🙂
+
+If you have any questions, please do not hesitate to email Joey, one of the lead developers at Gig Boss, at joeyhua17@gmail.com.
 
 
