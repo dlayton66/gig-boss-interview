@@ -64,7 +64,7 @@ This illustrates the first button, "Income By Musician"  With a click of this bu
 
 # Iteration 3
 
-This step is the final Step, if you complete everything in the previous steps, then go for this  implementation.  Here we will press the third button, "Export Data" and ALL of the important information should be exported to a useful tax page.  It should include:
+This step is the final step.  Here we will press "Export Data" and ALL of the important information should be exported to a useful tax page.  It should include:
 
 - Total All Bands Income
 - Total Personal Income
@@ -73,6 +73,11 @@ This step is the final Step, if you complete everything in the previous steps, t
 - Total You Paid Out Combined
 - Total Each Member Made
 - Visual Cue as to those Who Made >= $600
+
+The Export can be:
+- Another Page (little spicy)
+- PDF file (spicy)
+- Excel sheet (extra spicy)
 
 
 
