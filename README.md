@@ -37,7 +37,7 @@ You'll find screen shots of "Iteration 0," "Iteration 1," "Iteration 2," "Iterat
 
 UI Setup - This is a BASIC template of how to setup the UI.  This is not a strict template, so feel free to use your own design ideas! We are looking for functionality over beauty, but with a lot of UI changes on the horizon for Gig Boss, A catchy design is a Plus!
 
-/ 
+\
 Details:
 - Notice there is a "Total Income for 2023-2024" for all bands at the top.
 - The "Income By Band" will be a drop down menu, where you can choose which band info you'll see.
