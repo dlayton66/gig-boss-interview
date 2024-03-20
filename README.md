@@ -32,11 +32,12 @@ Create an interactive app that displays:
 
 *Income Data 2023-24.csv* has been uploaded in this repo, please reference it for all the data we want you to include in this challenge. You can simply hardcode the values in your code, but feel free to create your own backend/api if you wish to go the extra mile.
 \
-[Here is the link](https://www.figma.com/file/9qH3jQrBrNppwJjSgnoGUP/GB-Coding-Challenge?type=design&node-id=0%3A1&mode=design&t=wlM8zlV3ihzc8ZNB-1) to the Figma designs we've created as examples of what you could create. Individual examples are also shown in this README for each iteration.
+\
+[Here is the link](https://www.figma.com/file/9qH3jQrBrNppwJjSgnoGUP/GB-Coding-Challenge?type=design&node-id=0%3A1&mode=design&t=wlM8zlV3ihzc8ZNB-1) to the Figma designs we've created as examples of what you could create. Individual examples are also shown in this README for each iteration. You can copy our designs or do your own thing, as long as all the required data and functionality are there!
 
 ## Iteration 0
 
-UI Setup - This is a BASIC template of how to setup the UI.  This is not a strict template, so feel free to use your own design ideas! We are looking for functionality over beauty, but with a lot of UI changes on the horizon for Gig Boss, A catchy design is a Plus!
+UI Setup - This is a BASIC template of how to setup the UI.  This is not a strict template, so feel free to use your own design ideas! We are looking for functionality over beauty, but with a lot of UI changes on the horizon for Gig Boss, a catchy design is a Plus!
 
 \
 Details:
