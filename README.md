@@ -41,7 +41,7 @@ UI Setup - This is a BASIC template of how to setup the UI.  This is not a stric
 Details:
 - Notice there is a "Total Income for 2023-2024" for all bands at the top.
 - The "Income By Band" will be a drop down menu, where you can choose which band info you'll see.
-- Then there are Two Buttons, "Income By Musician" is aimed at showing all individuals income, and "Export to Spreadsheet" is the last iteration of the project. Push this button and all information will be exported to a sheet with all the numbers for taxes.
+- Then there are Two Buttons, "Income By Musician" is aimed at showing all individuals income, and "Export Data" is the last iteration of the project. Push this button and all information will be exported to a sheet with all the numbers for taxes.
 
 # Iteration 1
 
@@ -64,7 +64,7 @@ This illustrates the first button, "Income By Musician"  With a click of this bu
 
 # Iteration 3
 
-This step is the final Step, if you complete everything in the previous steps, then go for this  implementation.  Here we will press the third button, "Export for Spreadsheet," and ALL of the important information should be exported to a useful tax page.  It should include:
+This step is the final Step, if you complete everything in the previous steps, then go for this  implementation.  Here we will press the third button, "Export Data" and ALL of the important information should be exported to a useful tax page.  It should include:
 
 - Total All Bands Income
 - Total Personal Income
