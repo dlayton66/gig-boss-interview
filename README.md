@@ -10,28 +10,12 @@ We've provided you with instructions and income data that you will use for the c
 
 You are the leader of 3 bands, and it's time to do taxes for the year — ugh, sucks right?! 🙃 \
 Thankfully, you're working on an app that would make tax season a whole lot easier for musicians like you!
-
-\
 Each band has 4 members total (3 including you).
-- For Band 1, you have paid each member over $600 total in the past year.
-- For Band 2, you have paid each member under $600 in the past year.
-- For Band 3, you have paid 2 members >= $600 and the other 2 members less than $600 in the past year.
-
-\
-Create an interactive app that displays:
-- How much you have made personally over the past year
-- How much each individual band has made
-- How much total all the bands have made (all 3 bands added together)
-- How much each individual member has made (within each band)
-- Sort ppl who made >= $600 and < $600
-- Total amount of $ you paid to ppl who made >= $600
-- Total amount of $ you paid to ppl who made < $600
-- Search for a person’s name and see how much you paid them (or dropdown menu)
 
 ## Resources:
 
-*Income Data 2023-24.csv* has been uploaded in this repo, please reference it for all the data we want you to include in this challenge. You can simply hardcode the values in your code, but feel free to create your own backend/api if you wish to go the extra mile.
-\
+*income_data_2023_24.json* has been uploaded in this repo, this file will contain all of the necassary data for the challenge. 
+
 \
 [Here is the link](https://www.figma.com/file/9qH3jQrBrNppwJjSgnoGUP/GB-Coding-Challenge?type=design&node-id=0%3A1&mode=design&t=wlM8zlV3ihzc8ZNB-1) to the Figma designs we've created as examples of what you could create. Individual examples are also shown in this README for each iteration. You can copy our designs or do your own thing, as long as all the required data and functionality are there!
 
