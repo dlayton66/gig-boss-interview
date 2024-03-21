@@ -1,0 +1,68 @@
+{
+  "bands": [
+    {
+      "band_name": "Band 1",
+      "members": [
+        {
+          "name": "You",
+          "income": 2500
+        },
+        {
+          "name": "Adam",
+          "income": 2500
+        },
+        {
+          "name": "Reid",
+          "income": 2500
+        },
+        {
+          "name": "Joey",
+          "income": 2500
+        }
+      ]
+    },
+    {
+      "band_name": "Band 2",
+      "members": [
+        {
+          "name": "You",
+          "income": 200
+        },
+        {
+          "name": "John",
+          "income": 100
+        },
+        {
+          "name": "Paul",
+          "income": 100
+        },
+        {
+          "name": "Michael",
+          "income": 100
+        }
+      ]
+    },
+    {
+      "band_name": "Band 3",
+      "members": [
+        {
+          "name": "You",
+          "income": 400
+        },
+        {
+          "name": "Kendrick",
+          "income": 500
+        },
+        {
+          "name": "Talib",
+          "income": 600
+        },
+        {
+          "name": "George",
+          "income": 700
+        }
+      ]
+    }
+  ]
+}
+
