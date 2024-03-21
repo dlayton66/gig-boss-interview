@@ -43,7 +43,9 @@ UI Setup - This is a BASIC template of how to setup the UI.  This is not a stric
 Details:
 - Notice there is a "Total Income for 2023-2024" for all bands at the top.
 - The "Income By Band" will be a drop down menu, where you can choose which band info you'll see.
-- Then there are Two Buttons, "Income By Musician" is aimed at showing all individuals income, and "Export Data" is the last iteration of the project. Push this button and all information will be exported to a sheet with all the numbers for taxes.
+- Then there are two Buttons
+  - "Income By Musician" shows the income to each individual (with options to filter)
+  - "Export Data," Push this button and all data will be exported to a sheet with all the important tax numbers.
 
 <img src='https://github.com/joeyhuaa/gig-boss-interview/blob/main/Iteration%200_Example.png' width='400' />
 
@@ -51,36 +53,35 @@ Details:
 
 This illustrates the "Income By Band" pulldown menu, as well as the information necessary in the "Render Area." These include:
  - Total Band Income
- - A breakdown of all members of the band's income. 
- - When you switch from band to band the information in this window will change to match the band's income.
+ - Income of each band member. 
+ - When you switch between bands the information in this window will change.
 
 <img src='https://github.com/joeyhuaa/gig-boss-interview/blob/main/Iteration%201_Example.png' width='400' />
 
 ## Iteration 2 (MVP - Minimum Viable Product)
 
-This illustrates the first button, "Income By Musician"  With a click of this button the "Render Area" should show: 
+This illustrates the first button, "Income By Musician."  With a click of this button the "Render Area" should show: 
 
-- A search input (keyword search)
-- A dropdown input with two options >= $600 and < $600. 
-- And below a list of ALL (unfiltered) employees.  
-- The search input allows users to search for a direct name
-- The pulldown separates members who've earn more than or equal to, or less then $600. 
+- A search input (name search)
+- A dropdown input with two options ">= $600" and "< $600."
+  - The pulldown separates members who've earn more than or equal to, or less then $600. 
+- A list of ALL (unfiltered) employees.  
 
- Ideally, when the members are unfiltered there will be some visual cue to those members who have made more than $600.  This is shown with a green highlight in the example.
+When the members are unfiltered please include a visual cue for the members who have made >= $600.  This is shown with a green highlight in the example.
 
 <img src='https://github.com/joeyhuaa/gig-boss-interview/blob/main/Iteration%202_Example.png' width='400' />
 
 ## Iteration 3
 
-This step is the final step.  Here we will press "Export Data" and ALL of the important information should be exported to a useful tax page.  It should include:
+This step is the final step.  Here we will press "Export Data" and ALL of the important information should be exported to a useful tax page.  
 
-- Total All Bands Income
+It should include:
+- Total Income 2023 - 2024
 - Total $ Each Member Made
-- Total $ You Paid Out To Members Who Made >= $600
+- Total $ You Paid Out To Members Who Made >= $600 
 - Total $ You Paid Out To Members Who Made < $600
 - Total $ You Paid Out
 - Total Personal Income
-- Visual Cue as to those Who Made >= $600
 
 The Export can be:
 - Another Page (little spicy)
@@ -96,4 +97,5 @@ Please fork this repo and email us a link to the repo after you've completed the
 
 If you have any questions, please do not hesitate to email Joey, one of the lead developers at Gig Boss, at joeyhua17@gmail.com.
 
+Please send submissions to joeyhua17@gmail.com and reid.poole@gigbossapp.com
 
