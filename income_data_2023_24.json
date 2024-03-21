@@ -1,68 +1,67 @@
 {
   "bands": [
     {
-      "band_name": "Band 1",
+      "band_name": "Global Groove",
       "members": [
         {
-          "name": "You",
-          "income": 2500
+          "name": "Aisha",
+          "income": 2600
         },
         {
-          "name": "Adam",
-          "income": 2500
+          "name": "Carlos",
+          "income": 2400
         },
         {
-          "name": "Reid",
-          "income": 2500
+          "name": "Deepak",
+          "income": 2700
         },
         {
-          "name": "Joey",
+          "name": "Elena",
           "income": 2500
         }
       ]
     },
     {
-      "band_name": "Band 2",
+      "band_name": "Harmony Fusion",
       "members": [
         {
-          "name": "You",
+          "name": "Yuki",
+          "income": 300
+        },
+        {
+          "name": "Chen",
+          "income": 150
+        },
+        {
+          "name": "Fatimah",
           "income": 200
         },
         {
-          "name": "John",
-          "income": 100
-        },
-        {
-          "name": "Paul",
-          "income": 100
-        },
-        {
-          "name": "Michael",
+          "name": "Oliver",
           "income": 100
         }
       ]
     },
     {
-      "band_name": "Band 3",
+      "band_name": "Melody Makers",
       "members": [
         {
-          "name": "You",
+          "name": "Nia",
           "income": 400
         },
         {
-          "name": "Kendrick",
+          "name": "Liam",
           "income": 500
         },
         {
-          "name": "Talib",
+          "name": "Sofía",
           "income": 600
         },
         {
-          "name": "George",
+          "name": "Raj",
           "income": 700
         }
       ]
     }
   ]
 }
-
