@@ -12,7 +12,7 @@ This DOES NOT mean you have to use React Native to complete this project (unless
 
 ## Resources:
 
-*income_data_2023_24.json* has been uploaded in this repo, this file will contain all of the necassary data for the challenge. 
+*income_data_2023_24.json* has been uploaded in this repo, this file will contain all of the necessary data for the challenge. 
 
 \
 [Here is the link](https://www.figma.com/file/9qH3jQrBrNppwJjSgnoGUP/GB-Coding-Challenge?type=design&node-id=0%3A1&mode=design&t=wlM8zlV3ihzc8ZNB-1) to the Figma designs we've created as examples of what you could create. Individual examples are also shown in this README for each iteration. You can copy our designs or do your own thing, as long as all the required data and functionality are there!
