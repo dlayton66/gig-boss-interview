@@ -4,13 +4,11 @@ This coding challenge is aimed at our future implementations of our app's "Books
 
 We've provided you with instructions and income data that you will use for the challenge, as well as design examples to assist you. Our MVP, or Minimum Viable Product, is the completion of Iteration 2, and we really hope you can complete through Iteration 2! Iteration 3 is extra but encouraged if you have the time.
 
-# Coding Challenge Instructions
+## Tech Stack
 
-## Context
-
-You are the leader of 3 bands, and it's time to do taxes for the year — ugh, sucks right?! 🙃 \
-Thankfully, you're working on an app that would make tax season a whole lot easier for musicians like you!
-Each band has 4 members total (3 including you).
+If you know React please use React to complete this challenge! But if you prefer another framework or language that's fine as well. \
+PLEASE also make the entire app mobile-friendly! Gig Boss is a mobile app, and it's imperative that everything we do works and looks great on mobile. 
+This DOES NOT mean you have to use React Native to complete this project (unless you really want to); setting up your computer for dev work in React Native is a pain, so we recommend you use React Web and design everything for a mobile phone!
 
 ## Resources:
 
@@ -18,6 +16,14 @@ Each band has 4 members total (3 including you).
 
 \
 [Here is the link](https://www.figma.com/file/9qH3jQrBrNppwJjSgnoGUP/GB-Coding-Challenge?type=design&node-id=0%3A1&mode=design&t=wlM8zlV3ihzc8ZNB-1) to the Figma designs we've created as examples of what you could create. Individual examples are also shown in this README for each iteration. You can copy our designs or do your own thing, as long as all the required data and functionality are there!
+
+# CODING CHALLENGE INSTRUCTIONS
+
+You are the leader of 3 bands, and it's time to do taxes for the year — ugh, sucks right?! 🙃 \
+Thankfully, you're working on an app that would make tax season a whole lot easier for musicians like you!
+Each band has 4 members total (3 including you).\
+\
+Below you will find the instructions for each iteration of the assignment!
 
 ## Iteration 0
 
