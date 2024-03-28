@@ -1,10 +1,12 @@
+import { ChangeEvent } from 'react';
+
 interface Props {
   band_names: string[];
   onSelect: (selection: string) => void;
 }
 
 function BandDropdown({ band_names, onSelect }: Props) {
-  const passSelection = (event) => {
+  const passSelection = (event: ChangeEvent<HTMLSelectElement>) => {
     onSelect(event.target.value)
   }
 
