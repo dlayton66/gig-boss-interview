@@ -1,10 +1,9 @@
-import data from "../data/income_data_2023_24.json";
-import Band from "../interfaces/Band.ts";
+import { Member } from "../interfaces/Member.ts";
+import { get_all_members_sorted } from "../utils/BandUtils.ts";
 
 function ExportData() {
   const getMembersCSV = (members: Member[]) => {
     return members
-      .sort((a, b) => b.income - a.income)
       .map((member: Member) => `${member.name},${member.income}`)
       .join("\n");
   };
@@ -40,7 +39,7 @@ function ExportData() {
   };
 
   const downloadCSV = () => {
-    const members = data.bands.flatMap((band: Band) => band.members);
+    const members = get_all_members_sorted();
 
     const headers = "Musician,Income\n";
     const membersCSV = getMembersCSV(members);
