@@ -9,18 +9,19 @@ import { get_band_by_name, get_band_income } from "./utils/BandUtils.ts";
 
 function App() {
   const [selectedBandName, setSelectedBandName] = useState("");
-  const [isFiltered, setIsFiltered] = useState(false);
+  const [isIncomeByMusician, setIsIncomeByMusician] = useState(false);
 
-  let selectedBand = get_band_by_name(selectedBandName)
+  
   const receiveSelection = (selection: string) => {
     setSelectedBandName(selection);
   };
   const toggleFilter = () => {
-    setIsFiltered(!isFiltered);
+    setIsIncomeByMusician(!isIncomeByMusician);
   }
-
-  let get_band_names = data.bands.map((band: Band) => band.band_name);
-  let total_income = data.bands.reduce(
+  
+  const selectedBand = get_band_by_name(selectedBandName)
+  const get_band_names = data.bands.map((band: Band) => band.band_name);
+  const total_income = data.bands.reduce(
     (accumulator, band) => accumulator + get_band_income(band),
     0
   );
@@ -33,9 +34,9 @@ function App() {
         Total Income for 2023-2024: <span>${total_income}</span>
       </div>
       <BandDropdown band_names={get_band_names} onSelect={receiveSelection} />
-      <button className={isFiltered ? "filtered" : ""} onClick={toggleFilter}>Income by Musician</button>
+      <button className={isIncomeByMusician ? "active" : ""} onClick={toggleFilter}>Income by Musician</button>
       <ExportData />
-      <RenderArea band={selectedBand} isFiltered={isFiltered} />
+      <RenderArea band={selectedBand} isIncomeByMusician={isIncomeByMusician} />
     </div>
   );
 }
