@@ -60,7 +60,7 @@ function RenderArea({ band, isIncomeByMusician }: Props) {
             <div>Total Band Income: ${get_band_income(band)}</div>
             <div className="divider"></div>
             <div className="bottom-container">
-              {band.members.map((member) => (
+              {get_band_members_sorted(band).map((member) => (
                 <div>
                   {member.name === "You" ? "My Income" : member.name}: $
                   {member.income}
