@@ -22,9 +22,13 @@ function RenderArea({ band, isIncomeByMusician }: Props) {
   let my_income: number = 0;
 
   if (isIncomeByMusician) {
-    let members_plus_self = band ? get_band_members_sorted(band) : get_all_members_sorted()
-    my_income = get_my_income(members_plus_self)
-    filtered_members = members_plus_self.filter((member) => member.name != 'You');
+    let members_plus_self = band
+      ? get_band_members_sorted(band)
+      : get_all_members_sorted();
+    my_income = get_my_income(members_plus_self);
+    filtered_members = members_plus_self.filter(
+      (member) => member.name != "You"
+    );
 
     if (dropdown === "Members >= $600") {
       filtered_members = filtered_members.filter(
@@ -33,6 +37,12 @@ function RenderArea({ band, isIncomeByMusician }: Props) {
     } else if (dropdown === "Members < $600") {
       filtered_members = filtered_members.filter(
         (member) => member.income < 600
+      );
+    }
+
+    if (search) {
+      filtered_members = filtered_members.filter((member) =>
+        member.name.toLowerCase().includes(search.toLowerCase())
       );
     }
   }
@@ -79,7 +89,13 @@ function RenderArea({ band, isIncomeByMusician }: Props) {
               {filtered_members
                 .filter((member) => member.name != "You")
                 .map((member) => (
-                  <div className={member.income >= 600 && dropdown === 'All Members' ? "over-threshold" : ""}>
+                  <div
+                    className={
+                      member.income >= 600 && dropdown === "All Members"
+                        ? "over-threshold"
+                        : ""
+                    }
+                  >
                     {member.name}: ${member.income}
                   </div>
                 ))}
