@@ -1,19 +1,69 @@
-.render-area {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-
+.render-area-background {
   width: 88vw;
   height: 50vh;
-  gap: 3vh;
-
+  
   border-radius: 10px;
   background: #d9d9d9;
 }
 
-.band-name {
+.render-area {
+  display: flex;
+  flex-direction: column;
+  justify-content: top;
+  align-items: center;
+  height: 100%;
+  
+  gap: 2vh;
+  padding-top: 3vh;
+}
+
+.render-title {
   font-size: 150%;
+}
+
+.filter-options {
+  display: flex;
+  flex-direction: row;
+  gap: 3vw;
+  height: 4vh;
+  justify-content: space-between;
+}
+
+.search-filter {
+  width: calc(50% - 20px);
+  height: 100%;
+  border-radius: 20px;
+  border: none;
+  padding: 0 10px 0 10px;
+}
+
+::placeholder {
+  text-align: center;
+  padding: 0;
+}
+
+.dropdown-filter {
+  width: 50%;
+  height: 100%;
+  border-radius: 20px;
+  border: none;
+  background-color: white;
+  text-align: center;
+}
+
+.bottom-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2vh;
+  height: 50%;
+  width: 90%;
+  overflow: auto;
+  text-align: center;
+  padding: 0 10px;
+}
+
+.over-threshold {
+  color: #008000;
 }
 
 .divider {
