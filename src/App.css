@@ -10,10 +10,28 @@
   font-weight: 700;
 }
 
-select {
+.band-select {
   border: none;
   border-radius: 40px;
   background-color: #d9d9d9;
   padding: 15px 50px;
   font-size: 120%;
+  width: 70vw;
+  height: 8vh;
+  cursor: pointer;
+  text-align: center;
+}
+
+button {
+  border: none;
+  border-radius: 40px;
+  background-color: #d9d9d9;
+  width: 70vw;
+  height: 8vh;
+  font-size: 120%;
+  cursor: pointer;
+}
+
+.active {
+  background-color: #C3E9E9
 }
