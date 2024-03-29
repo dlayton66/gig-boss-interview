@@ -40,9 +40,10 @@ function ExportData() {
 
   const downloadCSV = () => {
     const members = get_all_members_sorted();
+    const members_minus_self = members.filter((member) => member.name != 'You')
 
     const headers = "Musician,Income\n";
-    const membersCSV = getMembersCSV(members);
+    const membersCSV = getMembersCSV(members_minus_self);
     const totalsCSV = getTotalsCSV(members);
     const csvContent = `data:text/csv;charset=utf-8,${headers}${membersCSV}\n\n${totalsCSV}`;
 
