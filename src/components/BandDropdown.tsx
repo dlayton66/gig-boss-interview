@@ -11,8 +11,8 @@ function BandDropdown({ band_names, onSelect }: Props) {
   }
 
   return (
-    <select onChange={passSelection}>
-      <option value="" hidden selected>Income by Band</option>
+    <select className="band-select" defaultValue="" onChange={passSelection}>
+      <option value="" hidden>Income by Band</option>
       {band_names.map((band_name) => (
         <option key={band_name} value={band_name}>{band_name}</option>
       ))}
