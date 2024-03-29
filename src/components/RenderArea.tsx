@@ -47,6 +47,12 @@ function RenderArea({ band, isIncomeByMusician }: Props) {
     }
   }
 
+  const applyThresholdColor = (income: number) => {
+    return income >= 600 && dropdown === "All Members"
+      ? "over-threshold"
+      : "";
+  };
+
   return (
     <div className="render-area-background">
       <div className="render-area">
@@ -55,12 +61,14 @@ function RenderArea({ band, isIncomeByMusician }: Props) {
             <div className="render-title">{band.band_name}</div>
             <div>Total Band Income: ${get_band_income(band)}</div>
             <div className="divider"></div>
-            {band.members.map((member) => (
-              <div>
-                {member.name === "You" ? "My Income" : member.name}: $
-                {member.income}
-              </div>
-            ))}
+            <div className="bottom-container">
+              {band.members.map((member) => (
+                <div>
+                  {member.name === "You" ? "My Income" : member.name}: $
+                  {member.income}
+                </div>
+              ))}
+            </div>
           </>
         )}
         {isIncomeByMusician && (
@@ -83,19 +91,15 @@ function RenderArea({ band, isIncomeByMusician }: Props) {
               </select>
             </div>
             <div className="render-title">{dropdown}</div>
-            <div>My Income: ${my_income}</div>
+            <div className={applyThresholdColor(my_income)}>
+              My Income: ${my_income}
+            </div>
             <div className="divider"></div>
             <div className="bottom-container">
               {filtered_members
                 .filter((member) => member.name != "You")
                 .map((member) => (
-                  <div
-                    className={
-                      member.income >= 600 && dropdown === "All Members"
-                        ? "over-threshold"
-                        : ""
-                    }
-                  >
+                  <div className={applyThresholdColor(member.income)}>
                     {member.name}: ${member.income}
                   </div>
                 ))}
