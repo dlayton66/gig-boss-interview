@@ -30,7 +30,7 @@ function App() {
       <div className="total-income">
         Total Income for 2023-2024: <span>${total_income}</span>
       </div>
-      <BandDropdown band_names={get_band_names} onSelect={receiveSelection} />
+      <BandDropdown band_names={get_band_names} isIncomeByMusician={isIncomeByMusician} onSelect={receiveSelection} />
       <button
         className={isIncomeByMusician ? "active" : ""}
         onClick={toggleFilter}
