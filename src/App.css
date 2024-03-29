@@ -1,9 +1,10 @@
 .app {
   display: flex;
   flex-direction: column;
-  gap: 5vh;
+  gap: 4vh;
   align-items: center;
   justify-content: center;
+  padding-top: 2.5vh;
 }
 
 .total-income span {
