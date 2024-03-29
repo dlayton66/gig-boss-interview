@@ -1,7 +1,7 @@
 .render-area-background {
   width: 88vw;
   height: 50vh;
-  
+
   border-radius: 10px;
   background: #d9d9d9;
 }
@@ -11,9 +11,9 @@
   flex-direction: column;
   justify-content: top;
   align-items: center;
-  height: 100%;
-  
-  gap: 2vh;
+  height: 47vh;
+
+  gap: 3vh;
   padding-top: 3vh;
 }
 
@@ -54,7 +54,7 @@
 .bottom-container {
   display: flex;
   flex-direction: column;
-  gap: 2vh;
+  gap: 3vh;
   height: 50%;
   width: 90%;
   overflow: auto;
@@ -69,5 +69,5 @@
 .divider {
   width: 100%;
   height: 1px;
-  background-color: #C1C1C1;
+  background-color: #c1c1c1;
 }
